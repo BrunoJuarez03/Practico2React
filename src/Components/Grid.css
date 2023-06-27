@@ -1,0 +1,56 @@
+.grid-Layout
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    overflow-x: auto;
+      display: grid;
+      grid-template-areas: 'cabecera cabecera cabecera'
+                           'menu menu menu'
+                           'contenido contenido lateral'
+                           'footer  footer footer';
+      grid-template-columns: 150px 1fr 340px;
+      grid-template-rows:   100px 30px 1fr 30px; 
+}
+.caja1
+{
+    
+    background-color: black;
+    grid-area: cabecera;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.caja2
+{
+
+    grid-area: contenido;
+
+    padding: 10px;
+}
+.caja3
+{
+    grid-area: lateral;
+    background-color: lightyellow;
+    border: 1px solid black;
+    padding: 10px;
+    height: fit-content;
+}
+.caja4
+{
+    
+    
+    grid-area: footer;
+    background-color:black;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+}
+.caja5
+{
+    grid-area: menu;
+    overflow: hidden;
+    background-color: black;
+}

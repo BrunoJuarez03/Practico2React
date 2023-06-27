@@ -1,0 +1,43 @@
+.img{
+    height: 150px;
+    display: flex;
+    
+}
+.ProductoPagina{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+.imgpag{
+    height: 400px;
+    width: 400px;
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px rgb(214, 214, 214);
+    
+}
+.box1:hover{
+    transform: scale(1.1);
+    
+}
+.box2{
+    width: 60%;
+    height: 330px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(214, 214, 214);
+    margin: 10px;
+}
+.tarjeta{
+    background-color: white;
+    padding: 10px;
+    width: 20%;
+    height: 300px;
+    overflow: hidden;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(214, 214, 214);
+    float: left;}
+.tarjeta:hover{transform: scale(1.1);}

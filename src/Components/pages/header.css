@@ -1,0 +1,33 @@
+.imgHeader{
+  width: 50px;
+  height: 50px;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.NavText{
+    text-decoration: none;
+    color: white;
+}
+.NavText:hover{
+    color: gray;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+li{list-style: none;
+}
